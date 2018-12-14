@@ -32,7 +32,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <header class="header fixed-top clearfix">
 <!--logo start-->
 <div class="brand">
-    <a href="index.html" class="logo" style="font-size:20px;">
+    <a href="/index/" class="logo" style="font-size:20px;">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;孝感移动 <br />
 		小区负荷智能分析系统
     </a>
@@ -237,7 +237,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <ul class="dropdown-menu extended logout">
                 <li><a href="#"><i class=" fa fa-suitcase"></i>Profile</a></li>
                 <li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
-                <li><a href="login.html"><i class="fa fa-key"></i> Log Out</a></li>
+                <li><a href="/login"><i class="fa fa-key"></i> Log Out</a></li>
             </ul>
         </li>
         <!-- user login dropdown end -->
@@ -254,7 +254,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="leftside-navigation">
             <ul class="sidebar-menu" id="nav-accordion">
                 <li>
-                    <a class="active" href="index.html">
+                    <a class="active" href="/index">
                         <i class="fa fa-dashboard"></i>
                         <span>概览</span>
                     </a>
@@ -266,8 +266,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>上传分析数据</span>
                     </a>
                     <ul class="sub">
-                        <li><a href="dropzone_tdd.html">TDD小区负荷数据</a></li>
-                        <li><a href="dropzone_fdd.html">FDD小区负荷分析</a></li>
+                        <li><a href="/uploadTDDLoadFile/">TDD小区负荷数据</a></li>
+                        <li><a href="/uploadFDDLoadFile/">FDD小区负荷分析</a></li>
                     </ul>
                 </li>
                 <!-- 侧边栏
@@ -341,7 +341,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </li>
                 -->
                 <li>
-                    <a href="login.html">
+                    <a href="/login">
                         <i class="fa fa-user"></i>
                         <span>用户信息</span>
                     </a>
@@ -369,12 +369,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                          </span>
                     </header>
                     <div class="panel-body">
-                        <form id="upload" method="post" action="upload.php" enctype="multipart/form-data">
+                        <form id="upload" method="post" action="/uploadTDDLoadFile/getTDDFile" enctype="multipart/form-data" >
                             <div id="drop">
                                 请上传TDD小区负荷数据源文件
 
                                 <a>点击上传</a>
-                                <input type="file" name="upl" multiple="">
+                                <input type="file" name="tddFile" multiple="">
                             </div>
 
                             <ul>
@@ -400,14 +400,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!--main content end-->
 </section>
+
 <script src="/static/js/bootstrap.js"></script>
 <script src="/static/js/jquery.dcjqaccordion.2.7.js"></script>
 <script src="/static/js/scripts.js"></script>
+<script type="text/javascript" src="/static/js/jquery.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.knob-1.0.1.js"></script>
+<script type="text/javascript" src="/static/js/jquery-ui.min.js"></script>
 <script src="/static/js/jquery.slimscroll.js"></script>
 <script src="/static/js/jquery.nicescroll.js"></script>
 <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/flot-chart/excanvas.min.js"></script><![endif]-->
 <script src="/static/js/jquery.fileupload.js"></script>
 <script src="/static/js/script.js"></script>
 <script src="/static/js/jquery.scrollTo.js"></script>
+
+<script type="text/javascript" >
+    /*
+    function uploadTDDFile() {
+  var form = document.getElementById('upload'),
+    formData = new FormData(form);
+  $.ajax({
+   url:"https://sscpre.boe.com/v1/medical-console/medical/file/upload",
+   type:"post",
+   data:formData,
+   processData:false,
+   contentType:false,
+   success:function(res){
+    if(res){
+     alert("上传成功！");
+    }
+    console.log(res);
+    $("#pic").val("");
+    $(".showUrl").html(res);
+    $(".showPic").attr("src",res);
+   },
+   error:function(err){
+    alert("网络连接失败,稍后重试",err);
+   }
+
+  })
+
+ }
+ */
+</script>
 </body>
 </html>

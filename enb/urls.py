@@ -21,8 +21,11 @@ import eNBLoadAnalyze.views as eNB
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', eNB.index),
+    path('index/', eNB.index),
     path('uploadTDDLoadFile/', eNB.uploadTDDLoadFile),
     path('uploadFDDLoadFile/', eNB.uploadFDDLoadFile),
+    path('uploadTDDLoadFile/getTDDFile', eNB.getTDDFile),
+    path('login/', eNB.login),
 ]
 
 handler404 = eNB.page_not_found #改动2

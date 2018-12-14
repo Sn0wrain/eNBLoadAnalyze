@@ -11,25 +11,75 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="488169117">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="js" value="1" />
+          <entry key="py" value="4" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="JavaScript" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="160" />
+          <entry key="py" value="621" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="160" />
+          <entry key="Python" value="621" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dropzone_tdd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="1936">
+              <caret line="407" column="67" selection-start-line="407" selection-start-column="67" selection-end-line="407" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#header#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="e#1631#1637#0#HTML" expanded="true" />
-                <element signature="e#1637#1643#0#HTML" expanded="true" />
-                <element signature="e#1643#1649#0#HTML" expanded="true" />
-                <element signature="e#1649#1655#0#HTML" expanded="true" />
-                <element signature="e#1655#1661#0#HTML" expanded="true" />
-                <element signature="e#1661#1667#0#HTML" expanded="true" />
-                <element signature="e#1667#1673#0#HTML" expanded="true" />
-                <element signature="e#1673#1679#0#HTML" expanded="true" />
-                <element signature="e#1679#1685#0#HTML" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1544800545785" expanded="true" signature="400:443" ph="..." />
+                <marker date="1544800545785" expanded="true" signature="577:578" ph="..." />
+                <marker date="1544800545785" expanded="true" signature="577:1163" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/my_form.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -37,56 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/dropzone_fdd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="409" column="21" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-              <folding>
-                <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="e#2023#2029#0#HTML" expanded="true" />
-                <element signature="e#2029#2035#0#HTML" expanded="true" />
-                <element signature="e#2035#2041#0#HTML" expanded="true" />
-                <element signature="e#2041#2047#0#HTML" expanded="true" />
-                <element signature="e#2047#2053#0#HTML" expanded="true" />
-                <element signature="e#2053#2059#0#HTML" expanded="true" />
-                <element signature="e#2059#2065#0#HTML" expanded="true" />
-                <element signature="e#2065#2071#0#HTML" expanded="true" />
-                <element signature="e#2071#2077#0#HTML" expanded="true" />
-                <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#!!top" />
-                <element signature="n#div#2;n#header#0;n#section#0;n#body#0;n#!!top" />
-                <element signature="n#aside#0;n#section#0;n#body#0;n#!!top" />
-                <element signature="e#15373#15379#0#HTML" expanded="true" />
-                <element signature="e#15754#15760#0#HTML" expanded="true" />
-                <element signature="e#16136#16142#0#HTML" expanded="true" />
-                <element signature="e#16489#16495#0#HTML" expanded="true" />
-                <element signature="e#16538#16544#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/enb/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="e#627#659#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="293">
+              <caret line="34" selection-start-line="34" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -94,22 +96,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/enb/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="266">
+              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/views.py">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="18" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="18" />
+            <state relative-caret-position="-1417">
+              <caret line="346" column="35" selection-start-line="346" selection-start-column="35" selection-end-line="346" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/enb/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="28" />
+              <folding>
+                <element signature="e#627#659#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -117,11 +138,19 @@
       <find>../statics/</find>
       <find>static/</find>
       <find>static/stat</find>
+      <find>FDD</find>
+      <find>html</find>
+      <find>login</find>
+      <find>htm</find>
     </findStrings>
     <replaceStrings>
       <replace>static/</replace>
       <replace>/static/</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,19 +174,26 @@
         <option value="$PROJECT_DIR$/templates/responsive_table.html" />
         <option value="$PROJECT_DIR$/templates/typography.html" />
         <option value="$PROJECT_DIR$/templates/vector_map.html" />
-        <option value="$PROJECT_DIR$/templates/dropzone_tdd.html" />
+        <option value="$PROJECT_DIR$/templates/header.html" />
         <option value="$PROJECT_DIR$/templates/dropzone_fdd.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/enb/urls.py" />
+        <option value="$PROJECT_DIR$/eNBLoadAnalyze/my_form.py" />
+        <option value="$PROJECT_DIR$/templates/dropzone_tdd.html" />
         <option value="$PROJECT_DIR$/enb/settings.py" />
         <option value="$PROJECT_DIR$/eNBLoadAnalyze/views.py" />
-        <option value="$PROJECT_DIR$/enb/urls.py" />
-        <option value="$PROJECT_DIR$/templates/header.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="321" />
-    <option name="y" value="51" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="435" />
+    <option name="y" value="253" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
@@ -166,49 +202,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="enb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enb" type="462c0819:PsiDirectoryNode" />
-              <item name="enb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="enb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enb" type="462c0819:PsiDirectoryNode" />
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
               <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
               <item name="enb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="enb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="enb" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eNBLoadAnalyze" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eNBLoadAnalyze" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\python\enb\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\python\enb\statics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python\eNBLoadAnalyze\static\js" />
+      <recent name="D:\python\enb\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,17 +311,12 @@
     <option name="totallyTimeSpent" value="6294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="435" y="253" width="1400" height="820" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21529563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3044776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.3293011" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3293011" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -284,15 +324,24 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.30948904" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3293011" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/checks/registry.py">
@@ -425,10 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9625">
           <caret line="510" column="24" selection-start-line="510" selection-start-column="24" selection-end-line="510" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#4;n#tr#0;n#thead#0;n#table#0;n#div#2;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,23 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16256">
           <caret line="859" column="24" selection-start-line="859" selection-start-column="24" selection-end-line="859" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#6;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="e#29955#29959#0#HTML" expanded="true" />
-            <element signature="e#29964#29968#0#HTML" expanded="true" />
-            <element signature="e#30738#30742#0#HTML" expanded="true" />
-            <element signature="e#30747#30751#0#HTML" expanded="true" />
-            <element signature="e#32240#32244#0#HTML" expanded="true" />
-            <element signature="e#32249#32253#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -460,62 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#0;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#1;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#0;n#div#2;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#section#0;n#div#1;n#div#2;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dropzone_tdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#header#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="e#1631#1637#0#HTML" expanded="true" />
-            <element signature="e#1637#1643#0#HTML" expanded="true" />
-            <element signature="e#1643#1649#0#HTML" expanded="true" />
-            <element signature="e#1649#1655#0#HTML" expanded="true" />
-            <element signature="e#1655#1661#0#HTML" expanded="true" />
-            <element signature="e#1661#1667#0#HTML" expanded="true" />
-            <element signature="e#1667#1673#0#HTML" expanded="true" />
-            <element signature="e#1673#1679#0#HTML" expanded="true" />
-            <element signature="e#1679#1685#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/dropzone_fdd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="409" column="21" selection-start-line="409" selection-start-column="21" selection-end-line="409" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enb/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/enb/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#627#659#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -526,52 +498,75 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5757">
           <caret line="320" column="8" selection-start-line="320" selection-start-column="8" selection-end-line="320" selection-end-column="8" />
-          <folding>
-            <element signature="n#div#0;n#header#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#header#0;n#!!top" expanded="true" />
-            <element signature="e#152#158#0#HTML" expanded="true" />
-            <element signature="e#158#164#0#HTML" expanded="true" />
-            <element signature="e#164#170#0#HTML" expanded="true" />
-            <element signature="e#170#176#0#HTML" expanded="true" />
-            <element signature="e#176#182#0#HTML" expanded="true" />
-            <element signature="e#182#188#0#HTML" expanded="true" />
-            <element signature="e#188#194#0#HTML" expanded="true" />
-            <element signature="e#194#200#0#HTML" expanded="true" />
-            <element signature="e#200#206#0#HTML" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dropzone_fdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="34" selection-start-line="34" selection-end-line="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="-1417">
+          <caret line="346" column="35" selection-start-line="346" selection-start-column="35" selection-end-line="346" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enb/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="28" />
           <folding>
-            <element signature="n#div#0;n#header#0;n#section#0;n#body#0;n#!!top" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="e#2023#2029#0#HTML" expanded="true" />
-            <element signature="e#2029#2035#0#HTML" expanded="true" />
-            <element signature="e#2035#2041#0#HTML" expanded="true" />
-            <element signature="e#2041#2047#0#HTML" expanded="true" />
-            <element signature="e#2047#2053#0#HTML" expanded="true" />
-            <element signature="e#2053#2059#0#HTML" expanded="true" />
-            <element signature="e#2059#2065#0#HTML" expanded="true" />
-            <element signature="e#2065#2071#0#HTML" expanded="true" />
-            <element signature="e#2071#2077#0#HTML" expanded="true" />
-            <element signature="n#div#1;n#header#0;n#section#0;n#body#0;n#!!top" />
-            <element signature="n#div#2;n#header#0;n#section#0;n#body#0;n#!!top" />
-            <element signature="n#aside#0;n#section#0;n#body#0;n#!!top" />
-            <element signature="e#15373#15379#0#HTML" expanded="true" />
-            <element signature="e#15754#15760#0#HTML" expanded="true" />
-            <element signature="e#16136#16142#0#HTML" expanded="true" />
-            <element signature="e#16489#16495#0#HTML" expanded="true" />
-            <element signature="e#16538#16544#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#5;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#4;n#section#0;n#section#0;n#section#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="e#627#659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/my_form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/jquery.knob-1.0.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1083">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/dropzone_tdd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1936">
+          <caret line="407" column="67" selection-start-line="407" selection-start-column="67" selection-end-line="407" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/enb/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/123.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eNBLoadAnalyze/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1544800545785" expanded="true" signature="400:443" ph="..." />
+            <marker date="1544800545785" expanded="true" signature="577:578" ph="..." />
+            <marker date="1544800545785" expanded="true" signature="577:1163" ph="..." />
           </folding>
         </state>
       </provider>
