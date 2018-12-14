@@ -25,3 +25,9 @@ hs_err_pid*
 # Company Files
 *.xls
 *.xlsx
+
+# IDEA
+# .idea/
+
+# Python cache
+__pycache__/
