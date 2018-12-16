@@ -26,6 +26,7 @@ urlpatterns = [
     path('uploadFDDLoadFile/', eNB.uploadFDDLoadFile),
     path('uploadTDDLoadFile/getTDDFile', eNB.getTDDFile),
     path('login/', eNB.login),
+    path('registration', eNB.reg)
 ]
 
 handler404 = eNB.page_not_found #改动2

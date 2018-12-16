@@ -19,6 +19,9 @@ def uploadFDDLoadFile(request):
 def login(request) :
     return render(request, 'login.html')
 
+def reg(request) :
+    return render(request, 'registration.html')
+
 def page_not_found(request):
     return render(request, '404.html')
 
