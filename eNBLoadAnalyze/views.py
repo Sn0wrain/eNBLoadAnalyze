@@ -3,10 +3,24 @@ from django.views.decorators.csrf import csrf_exempt
 
 import os
 
+resdata = [
+				{"period": '2018-10-01', "PUSCH": 2, "PDSCH": 104, "PDCCH": 62, "RRC": 0},
+                {"period": '2018-10-08', "PUSCH": 2, "PDSCH": 146, "PDCCH": 68, "RRC": 0},
+				{"period": '2018-10-15', "PUSCH": 4, "PDSCH": 112, "PDCCH": 60, "RRC": 0},
+                {"period": '2018-10-22', "PUSCH": 0, "PDSCH": 106, "PDCCH": 55, "RRC": 0},
+				{"period": '2018-10-29', "PUSCH": 0, "PDSCH": 66, "PDCCH": 45, "RRC": 0},
+                {"period": '2018-11-05', "PUSCH": 1, "PDSCH": 77, "PDCCH": 46, "RRC": 0},
+				{"period": '2018-11-12', "PUSCH": 2, "PDSCH": 79, "PDCCH": 36, "RRC": 0},
+                {"period": '2018-11-19', "PUSCH": 0, "PDSCH": 67, "PDCCH": 23, "RRC": 0},
+				{"period": '2018-11-26', "PUSCH": 0, "PDSCH": 74, "PDCCH": 31, "RRC": 0},
+                {"period": '2018-12-03', "PUSCH": 0, "PDSCH": 71, "PDCCH": 28, "RRC": 0},
+				{"period": '2018-12-10', "PUSCH": 2, "PDSCH": 100, "PDCCH": 42, "RRC": 0},
+			]
+
 # Create your views here.
 def index(request) :
 
-    return render(request, 'index.html')
+    return render(request, 'index.html', {'resdata': resdata})
 
 def uploadTDDLoadFile(request) :
 

@@ -537,6 +537,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			resize: true
 		});
 
+	    var resList = []
+        {% for x in resdata %}
+            var resData = new Object();
+            resData.period = {{ x.period }};
+            resData.PUSCH = {{ x.PUSCH }};
+            resData.PDSCH = {{ x.PDSCH }};
+            resData.PDCCH = {{ x.PDCCH }};
+            resData.RRC = {{ x.RRC }};
+            resList.push(resData);
+        {% endfor %}
+        alert(resList);
 		graphArea2 = Morris.Area({
 			element: 'hero-area2',
 			padding: 10,
@@ -549,7 +560,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         pointSize: 0,
         lineWidth: 0,
         fillOpacity:0.85,
-			data: [
+			data:resList,
+
+                /*[
 				{"period": '2018-10-01', "PUSCH": 2, "PDSCH": 104, "PDCCH": 62, "RRC": 0},
                 {"period": '2018-10-08', "PUSCH": 2, "PDSCH": 146, "PDCCH": 68, "RRC": 0},
 				{"period": '2018-10-15', "PUSCH": 4, "PDSCH": 112, "PDCCH": 60, "RRC": 0},
@@ -562,7 +575,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 {"period": '2018-12-03', "PUSCH": 0, "PDSCH": 71, "PDCCH": 28, "RRC": 0},
 				{"period": '2018-12-10', "PUSCH": 2, "PDSCH": 100, "PDCCH": 42, "RRC": 0},
 				// {"period": '2018 12', "PDSCH": 1069, "PUSCH": 4470, "PDCCH": 2038, "RRC": 22},
-			],
+			],*/
+
 			// lineColors:['#eb6f6f','#926383','#eb6f6f','#926383'],
 			lineColors:['#fc3158','#53d769','#147efb','#2a2727'],
 
