@@ -2,11 +2,32 @@ from django.shortcuts import HttpResponse, render, redirect
 from django.views.decorators.csrf import csrf_exempt
 
 import os
+import HTMLParser
+
+
+
+dataList = [	{"period": '2018-10-01', "PUSCH": 46, "PDSCH": 175, "PDCCH": 228, "RRC": 10},
+                {"period": '2018-10-08', "PUSCH": 49, "PDSCH": 207, "PDCCH": 311, "RRC": 32},
+				{"period": '2018-10-15', "PUSCH": 37, "PDSCH": 222, "PDCCH": 158, "RRC": 4},
+                {"period": '2018-10-22', "PUSCH": 36, "PDSCH": 231, "PDCCH": 162, "RRC": 3},
+				{"period": '2018-10-29', "PUSCH": 51, "PDSCH": 245, "PDCCH": 231, "RRC": 3},
+                {"period": '2018-11-05', "PUSCH": 43, "PDSCH": 252, "PDCCH": 205, "RRC": 2},
+				{"period": '2018-11-12', "PUSCH": 65, "PDSCH": 353, "PDCCH": 234, "RRC": 4},
+                {"period": '2018-11-19', "PUSCH": 70, "PDSCH": 380, "PDCCH": 242, "RRC": 7},
+				{"period": '2018-11-26', "PUSCH": 68, "PDSCH": 264, "PDCCH": 204, "RRC": 5},
+                {"period": '2018-12-03', "PUSCH": 64, "PDSCH": 289, "PDCCH": 212, "RRC": 12},
+				{"period": '2018-12-10', "PUSCH": 64, "PDSCH": 388, "PDCCH": 185, "RRC": 4},]
+
+
+def decodeHtml(input):
+    h = HTMLParser.HTMLParser()
+    s = h.unescape(input)
+    return s
 
 # Create your views here.
 def index(request) :
-
-    return render(request, 'index.html')
+   # print(decodeHtml(dataList))
+    return render(request, 'index.html', {'dataList': decodeHtml(dataList)})
 
 def uploadTDDLoadFile(request) :
 
@@ -40,5 +61,13 @@ def getTDDFile(request) :
         for chunk in myFile.chunks():      # 分块写入文件
             destination.write(chunk)
         destination.close()
+
+
         return HttpResponse("upload over!")
   #  return 0
+
+def getIndexData(request) :
+    print ("here")
+   # res = ''.join([str(dataList) for x in dataList])
+    # return HttpResponse('[' + res + ']')
+    return HttpResponse(dataList)

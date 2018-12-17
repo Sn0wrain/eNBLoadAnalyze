@@ -369,12 +369,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                          </span>
                     </header>
                     <div class="panel-body">
-                        <form id="upload" method="post" action="/uploadTDDLoadFile/getTDDFile" enctype="multipart/form-data" >
+                        <!--<form id="upload" method="post" action="/uploadTDDLoadFile/getTDDFile" enctype="multipart/form-data" >-->
+                        <form id="upload11" method="post" action="#" enctype="multipart/form-data">
+
                             <div id="drop">
                                 请上传TDD小区负荷数据源文件
 
-                                <a>点击上传</a>
+                               <!-- <a>点击上传</a> -->
                                 <input type="file" name="tddFile" multiple="">
+                                <input type="submit" value="upload">
                             </div>
 
                             <ul>
@@ -413,7 +416,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script src="/static/js/jquery.scrollTo.js"></script>
 
 <script type="text/javascript" >
-    /*
+
     function uploadTDDFile() {
   var form = document.getElementById('upload'),
     formData = new FormData(form);
@@ -439,7 +442,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
   })
 
  }
- */
+
 </script>
 </body>
 </html>
