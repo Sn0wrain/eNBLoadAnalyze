@@ -3,24 +3,37 @@ from django.views.decorators.csrf import csrf_exempt
 
 import os
 
-resdata = [
-				{"period": '2018-10-01', "PUSCH": 2, "PDSCH": 104, "PDCCH": 62, "RRC": 0},
-                {"period": '2018-10-08', "PUSCH": 2, "PDSCH": 146, "PDCCH": 68, "RRC": 0},
-				{"period": '2018-10-15', "PUSCH": 4, "PDSCH": 112, "PDCCH": 60, "RRC": 0},
-                {"period": '2018-10-22', "PUSCH": 0, "PDSCH": 106, "PDCCH": 55, "RRC": 0},
-				{"period": '2018-10-29', "PUSCH": 0, "PDSCH": 66, "PDCCH": 45, "RRC": 0},
-                {"period": '2018-11-05', "PUSCH": 1, "PDSCH": 77, "PDCCH": 46, "RRC": 0},
-				{"period": '2018-11-12', "PUSCH": 2, "PDSCH": 79, "PDCCH": 36, "RRC": 0},
-                {"period": '2018-11-19', "PUSCH": 0, "PDSCH": 67, "PDCCH": 23, "RRC": 0},
-				{"period": '2018-11-26', "PUSCH": 0, "PDSCH": 74, "PDCCH": 31, "RRC": 0},
-                {"period": '2018-12-03', "PUSCH": 0, "PDSCH": 71, "PDCCH": 28, "RRC": 0},
-				{"period": '2018-12-10', "PUSCH": 2, "PDSCH": 100, "PDCCH": 42, "RRC": 0},
-			]
+fddResdata = [
+{"period": '2018-10-01', "PUSCH": 2, "PDSCH": 104, "PDCCH": 62, "RRC": 0},
+{"period": '2018-10-08', "PUSCH": 2, "PDSCH": 146, "PDCCH": 68, "RRC": 0},
+{"period": '2018-10-15', "PUSCH": 4, "PDSCH": 112, "PDCCH": 60, "RRC": 0},
+{"period": '2018-10-22', "PUSCH": 0, "PDSCH": 106, "PDCCH": 55, "RRC": 0},
+{"period": '2018-10-29', "PUSCH": 0, "PDSCH": 66, "PDCCH": 45, "RRC": 0},
+{"period": '2018-11-05', "PUSCH": 1, "PDSCH": 77, "PDCCH": 46, "RRC": 0},
+{"period": '2018-11-12', "PUSCH": 2, "PDSCH": 79, "PDCCH": 36, "RRC": 0},
+{"period": '2018-11-19', "PUSCH": 0, "PDSCH": 67, "PDCCH": 23, "RRC": 0},
+{"period": '2018-11-26', "PUSCH": 0, "PDSCH": 74, "PDCCH": 31, "RRC": 0},
+{"period": '2018-12-03', "PUSCH": 0, "PDSCH": 71, "PDCCH": 28, "RRC": 0},
+{"period": '2018-12-10', "PUSCH": 2, "PDSCH": 100, "PDCCH": 42, "RRC": 0},
+]
+
+tddResdata = [
+{"period": '2018-10-01', "PUSCH": 46, "PDSCH": 175, "PDCCH": 228, "RRC": 10},
+{"period": '2018-10-08', "PUSCH": 49, "PDSCH": 207, "PDCCH": 311, "RRC": 32},
+{"period": '2018-10-15', "PUSCH": 37, "PDSCH": 222, "PDCCH": 158, "RRC": 4},
+{"period": '2018-10-22', "PUSCH": 36, "PDSCH": 231, "PDCCH": 162, "RRC": 3},
+{"period": '2018-10-29', "PUSCH": 51, "PDSCH": 245, "PDCCH": 231, "RRC": 3},
+{"period": '2018-11-05', "PUSCH": 43, "PDSCH": 252, "PDCCH": 205, "RRC": 2},
+{"period": '2018-11-12', "PUSCH": 65, "PDSCH": 353, "PDCCH": 234, "RRC": 4},
+{"period": '2018-11-19', "PUSCH": 70, "PDSCH": 380, "PDCCH": 242, "RRC": 7},
+{"period": '2018-11-26', "PUSCH": 68, "PDSCH": 264, "PDCCH": 204, "RRC": 5},
+{"period": '2018-12-03', "PUSCH": 64, "PDSCH": 289, "PDCCH": 212, "RRC": 12},
+{"period": '2018-12-10', "PUSCH": 64, "PDSCH": 388, "PDCCH": 185, "RRC": 4},
+]
 
 # Create your views here.
 def index(request) :
-
-    return render(request, 'index.html', {'resdata': resdata})
+    return render(request, 'index.html', {'tddResdata': tddResdata, 'fddResdata': fddResdata})
 
 def uploadTDDLoadFile(request) :
 
